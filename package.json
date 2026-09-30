@@ -1,0 +1,12 @@
+{
+  "name": "winter-arc-fullstack",
+  "version": "1.0.0",
+  "description": "WINTER ARC — Personal Long-Term Life Habits & Full Stack Web Developer Career System",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  }
+}
